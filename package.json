@@ -1,6 +1,6 @@
 {
   "name": "@v0idd0/logparse",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "logparse — structured log parser, filter, aggregator. Auto-detects JSON / text / nginx / apache / syslog / Python-logging. Top-N template extraction, per-bucket stats, stdin + tail -f. Free forever from vøiddo.",
   "main": "src/parser.js",
   "bin": {
@@ -43,9 +43,18 @@
     "node": ">=14"
   },
   "files": [
-    "bin",
-    "src",
-    "README.md",
-    "LICENSE"
-  ]
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "https://voiddo.com/contact/"
+  }
 }
