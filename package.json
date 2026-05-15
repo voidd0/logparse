@@ -1,6 +1,6 @@
 {
   "name": "@v0idd0/logparse",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "logparse — structured log parser, filter, aggregator. Auto-detects JSON / text / nginx / apache / syslog / Python-logging. Top-N template extraction, per-bucket stats, stdin + tail -f. Free forever from vøiddo.",
   "main": "src/parser.js",
   "bin": {
@@ -18,6 +18,10 @@
     "apache",
     "syslog",
     "json-logs",
+    "log-analyzer",
+    "log-aggregator",
+    "tail-parser",
+    "incident-debugging",
     "grep",
     "filter",
     "tail",
@@ -27,7 +31,7 @@
   ],
   "author": "vøiddo <support@voiddo.com> (https://voiddo.com)",
   "license": "MIT",
-  "homepage": "https://voiddo.com/tools/logparse/",
+  "homepage": "https://tools.voiddo.com/logparse/?ref=logparse-npm",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/voidd0/logparse.git"

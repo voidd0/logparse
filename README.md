@@ -5,6 +5,10 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-A0573A.svg)](LICENSE)
 [![Node ≥14](https://img.shields.io/badge/node-%E2%89%A514-1F1A14)](package.json)
 
+**[Homepage](https://tools.voiddo.com/logparse/?ref=logparse-readme)** · **[GitHub](https://github.com/voidd0/logparse)** · **[npm](https://www.npmjs.com/package/@v0idd0/logparse)** · **[All tools](https://tools.voiddo.com/?ref=logparse-catalog-readme)** · **[Contact](mailto:support@voiddo.com)**
+
+---
+
 **Structured log parser / filter / aggregator.** Auto-detects JSON, plain-text, nginx, Apache, syslog, and Python-logging. Filter by level, grep, time range; aggregate into top templates and time buckets. Works on files or stdin.
 
 Free forever gift from [vøiddo](https://voiddo.com).
@@ -178,17 +182,17 @@ const entry = parseLine('127.0.0.1 - - [22/Apr/2026:12:00:00 +0000] "GET / HTTP/
 
 vøiddo builds sharp, free-forever CLIs for devs who are tired of paywalls:
 
-- [`@v0idd0/jsonyo`](https://voiddo.com/tools/jsonyo/) — JSON that yells at you
-- [`@v0idd0/tokcount`](https://voiddo.com/tools/tokcount/) — token counter for 60+ LLMs
-- [`@v0idd0/ctxstuff`](https://voiddo.com/tools/ctxstuff/) — stuff a repo into an LLM context
-- [`@v0idd0/promptdiff`](https://voiddo.com/tools/promptdiff/) — diff two prompts
-- [`@v0idd0/httpwut`](https://voiddo.com/tools/httpwut/) — HTTP debugger
-- [`@v0idd0/gitstats`](https://voiddo.com/tools/gitstats/) — local git analytics
-- [`@v0idd0/licenseme`](https://voiddo.com/tools/licenseme/) — LICENSE generator + detector
-- [`@v0idd0/envguard`](https://voiddo.com/tools/envguard/) — .env validator + secret scanner
-- [`@v0idd0/depcheck`](https://voiddo.com/tools/depcheck/) — offline CVE scanner + unused-deps
+- [`@v0idd0/jsonyo`](https://tools.voiddo.com/jsonyo/?ref=logparse-related-jsonyo-readme) — JSON that yells at you
+- [`@v0idd0/tokcount`](https://tools.voiddo.com/tokcount/?ref=logparse-related-tokcount-readme) — token counter for 60+ LLMs
+- [`@v0idd0/ctxstuff`](https://tools.voiddo.com/ctxstuff/?ref=logparse-related-ctxstuff-readme) — stuff a repo into an LLM context
+- [`@v0idd0/promptdiff`](https://tools.voiddo.com/promptdiff/?ref=logparse-related-promptdiff-readme) — diff two prompts
+- [`@v0idd0/httpwut`](https://tools.voiddo.com/httpwut/?ref=logparse-related-httpwut-readme) — HTTP debugger
+- [`@v0idd0/gitstats`](https://tools.voiddo.com/gitstats/?ref=logparse-related-gitstats-readme) — local git analytics
+- [`@v0idd0/licenseme`](https://tools.voiddo.com/licenseme/?ref=logparse-related-licenseme-readme) — LICENSE generator + detector
+- [`@v0idd0/envguard`](https://tools.voiddo.com/envguard/?ref=logparse-related-envguard-readme) — .env validator + secret scanner
+- [`@v0idd0/depcheck`](https://tools.voiddo.com/depcheck/?ref=logparse-related-depcheck-readme) — offline CVE scanner + unused-deps
 
-Full catalog: [voiddo.com/tools](https://voiddo.com/tools/).
+Full catalog: [tools.voiddo.com](https://tools.voiddo.com/?ref=logparse-catalog-readme).
 
 ## License
 
@@ -196,10 +200,10 @@ MIT © [vøiddo](https://voiddo.com) — free forever, no asterisks.
 
 ## Links
 
-- Docs: https://voiddo.com/tools/logparse/
+- Docs: https://tools.voiddo.com/logparse/?ref=logparse-docs-readme
 - Source: https://github.com/voidd0/logparse
 - npm: https://npmjs.com/package/@v0idd0/logparse
-- Studio: https://voiddo.com
+- Studio: https://voiddo.com/?ref=logparse-studio-readme
 - Issues: https://github.com/voidd0/logparse/issues
 - Support: support@voiddo.com
 
