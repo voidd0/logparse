@@ -11,7 +11,7 @@
 
 **Structured log parser / filter / aggregator.** Auto-detects JSON, plain-text, nginx, Apache, syslog, and Python-logging. Filter by level, grep, time range; aggregate into top templates and time buckets. Works on files or stdin.
 
-Free forever gift from [vøiddo](https://voiddo.com).
+gift from [vøiddo](https://voiddo.com).
 
 ```
 $ logparse app.log --top 5
@@ -178,25 +178,9 @@ const entry = parseLine('127.0.0.1 - - [22/Apr/2026:12:00:00 +0000] "GET / HTTP/
 // => { format: 'nginx', level: 'info', extra: { status: 200, method: 'GET', path: '/' }, ... }
 ```
 
-## From the same studio
-
-vøiddo builds sharp, free-forever CLIs for devs who are tired of paywalls:
-
-- [`@v0idd0/jsonyo`](https://tools.voiddo.com/jsonyo/?ref=logparse-related-jsonyo-readme) — JSON that yells at you
-- [`@v0idd0/tokcount`](https://tools.voiddo.com/tokcount/?ref=logparse-related-tokcount-readme) — token counter for 60+ LLMs
-- [`@v0idd0/ctxstuff`](https://tools.voiddo.com/ctxstuff/?ref=logparse-related-ctxstuff-readme) — stuff a repo into an LLM context
-- [`@v0idd0/promptdiff`](https://tools.voiddo.com/promptdiff/?ref=logparse-related-promptdiff-readme) — diff two prompts
-- [`@v0idd0/httpwut`](https://tools.voiddo.com/httpwut/?ref=logparse-related-httpwut-readme) — HTTP debugger
-- [`@v0idd0/gitstats`](https://tools.voiddo.com/gitstats/?ref=logparse-related-gitstats-readme) — local git analytics
-- [`@v0idd0/licenseme`](https://tools.voiddo.com/licenseme/?ref=logparse-related-licenseme-readme) — LICENSE generator + detector
-- [`@v0idd0/envguard`](https://tools.voiddo.com/envguard/?ref=logparse-related-envguard-readme) — .env validator + secret scanner
-- [`@v0idd0/depcheck`](https://tools.voiddo.com/depcheck/?ref=logparse-related-depcheck-readme) — offline CVE scanner + unused-deps
-
-Full catalog: [tools.voiddo.com](https://tools.voiddo.com/?ref=logparse-catalog-readme).
-
 ## License
 
-MIT © [vøiddo](https://voiddo.com) — free forever, no asterisks.
+MIT © [vøiddo](https://voiddo.com), no asterisks.
 
 ## Links
 
@@ -209,4 +193,4 @@ MIT © [vøiddo](https://voiddo.com) — free forever, no asterisks.
 
 ---
 
-Built by [vøiddo](https://voiddo.com/) — a small studio shipping AI-flavoured products, free dev tools, Chrome extensions and weird browser games.
+Maintained by v0idd0.

@@ -1,7 +1,7 @@
 {
   "name": "@v0idd0/logparse",
-  "version": "2.0.3",
-  "description": "logparse — structured log parser, filter, aggregator. Auto-detects JSON / text / nginx / apache / syslog / Python-logging. Top-N template extraction, per-bucket stats, stdin + tail -f. Free forever from vøiddo.",
+  "version": "2.0.4",
+  "description": "Parse, filter and aggregate logs. Detects JSON, plain text, nginx, apache, syslog and Python logging formats. Top-N templates, per-bucket stats, stdin and tail -f.",
   "main": "src/parser.js",
   "bin": {
     "logparse": "./bin/logparse.js"
@@ -13,25 +13,19 @@
     "log",
     "logs",
     "parser",
-    "analyzer",
+    "log-analyzer",
     "nginx",
     "apache",
     "syslog",
     "json-logs",
-    "log-analyzer",
-    "log-aggregator",
-    "tail-parser",
-    "incident-debugging",
-    "grep",
+    "aggregator",
     "filter",
     "tail",
-    "aggregator",
-    "cli",
-    "voiddo"
+    "cli"
   ],
   "author": "vøiddo <support@voiddo.com> (https://voiddo.com)",
   "license": "MIT",
-  "homepage": "https://tools.voiddo.com/logparse/?ref=logparse-npm",
+  "homepage": "https://tools.voiddo.com/logparse/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/voidd0/logparse.git"
@@ -47,15 +41,10 @@
     "node": ">=14"
   },
   "files": [
-    "bin/",
-    "src/",
-    "LICENSE",
-    "README.md"
-  ],
-  "os": [
-    "darwin",
-    "linux",
-    "win32"
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
   ],
   "funding": {
     "type": "individual",
